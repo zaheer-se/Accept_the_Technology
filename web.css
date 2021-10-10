@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    text-align: center;
+    margin-top: 3%;
+}
+.row{
+    display:flex;
+    margin-top: 3%;
+    justify-content: space-between;
+    margin-left:10%;
+    margin-right: 10%;
+}
+
+@media(max-width: 700px){
+    .row{
+        display: block;
+    }
+}
